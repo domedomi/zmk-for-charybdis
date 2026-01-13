@@ -51,10 +51,10 @@
 
         layer_1 {
             bindings = <
-&kp F1     &kp F2      &kp F3      &kp F4         &kp F5      &kp F6     &kp F7            &kp F8         &kp F9     &kp F10
-&kp N1     &kp N2      &kp N3      &kp N4         &kp N5      &kp N6     &kp N7            &kp N8         &kp N9     &kp N0
-&kp GLOBE  &kp K_FIND  &kp INSERT  &kp BACKSPACE  &kp DEL     &kp MINUS  &kp LEFT_BRACKET  &kp SEMICOLON  &kp COMMA  &kp BACKSLASH
-                                   &kp LBKT       &kp RBKT    &none      &kp F11           &kp F12
+&kp F1    &kp F2   &kp F3      &kp F4         &kp F5      &kp F6     &kp F7            &kp F8         &kp F9     &kp F10
+&kp N1    &kp N2   &kp N3      &kp N4         &kp N5      &kp N6     &kp N7            &kp N8         &kp N9     &kp N0
+&kp HOME  &kp END  &kp INSERT  &kp BACKSPACE  &kp DEL     &kp MINUS  &kp LEFT_BRACKET  &kp SEMICOLON  &kp COMMA  &kp BACKSLASH
+                               &kp LBKT       &kp RBKT    &none      &kp F11           &kp F12
             >;
         };
 
@@ -78,9 +78,9 @@
 
         layer_4 {
             bindings = <
-&to 3           &trans        &trans     &trans        &trans      &trans   &trans         &trans     &trans         &trans
+&mo 3           &trans        &trans     &trans        &trans      &trans   &trans         &trans     &trans         &trans
 &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_GUI  &kp TAB     &kp TAB  &kp RIGHT_GUI  &kp RCTRL  &kp RIGHT_ALT  &kp RIGHT_SHIFT
-&trans          &mkp MB3      &mkp MB2   &mkp MB1      &to 1       &to 1    &mkp MB1       &mkp MB2   &mkp MB3       &trans
+&trans          &mkp MB3      &mkp MB2   &mkp MB1      &mo 1       &mo 1    &mkp MB1       &mkp MB2   &mkp MB3       &trans
                                          &mkp MB5      &mkp MB4    &trans   &mkp MB5       &mkp MB4
             >;
         };
