@@ -62,7 +62,7 @@
             bindings = <
 &kp GLOBE  &kp C_AC_ZOOM_IN  &kp C_AC_ZOOM_OUT  &none            &none            &none           &kp PAGE_DOWN   &kp PAGE_UP   &none            &none
 &none      &none             &kp UP_ARROW       &kp PRINTSCREEN  &kp PAGE_UP      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
-&none      &kp LEFT_ARROW    &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp EQUAL       &kp RBKT        &kp SQT       &kp PERIOD       &kp SLASH
+&none      &kp LEFT_ARROW    &kp DOWN_ARROW     &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp EQUAL       &kp RBKT        &kp SQT       &kp COLON        &kp TILDE
                                                 &kp LBRC         &kp RBRC         &none           &none           &none
             >;
         };
